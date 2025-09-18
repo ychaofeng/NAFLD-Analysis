@@ -1,0 +1,53 @@
+# NAFLD Transcriptome Analysis
+
+Analysis of transcriptome data from GSE167523 dataset focusing on NAFLD progression from NAFL to NASH, with emphasis on lipid metabolism pathways.
+
+## Project Overview
+This project analyzes RNA-seq data from liver tissue samples to understand:
+- Differential gene expression between NASH and NAFL
+- Lipid metabolism pathway changes
+- Gene network analysis in NAFLD progression
+
+## Key Findings
+- Identified significant changes in lipid metabolism genes
+- Discovered altered pathways in NASH progression
+- Mapped gene regulatory networks
+
+## Repository Structure
+```
+├── data/                 # Data directory (not tracked)
+├── notebooks/           
+│   └── GSE167523.ipynb  # Main analysis notebook
+├── .gitignore
+└── README.md
+```
+
+## Requirements
+- Python 3.x
+- Required packages listed in requirements.txt
+
+## Usage
+1. Clone the repository:
+```bash
+git clone https://github.com/ychaofeng/NAFLD-Analysis.git
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run Jupyter notebook:
+```bash
+jupyter notebook notebooks/GSE167523.ipynb
+```
+
+## Results
+Analysis results include:
+- Differential expression analysis
+- Pathway enrichment analysis
+- Lipid metabolism network analysis
+- Visualizations of key findings
+
+## Data Source
+Dataset GSE167523 from Gene Expression Omnibus (GEO)

@@ -1,0 +1,20 @@
+name: mash-analysis
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - numpy
+  - pandas
+  - scipy
+  - seaborn
+  - matplotlib
+  - plotly
+  - statsmodels
+  - geoparse
+  - openpyxl
+  - gseapy
+  - pip
+  - pip:
+      - pytest
+      - pytest-cov
